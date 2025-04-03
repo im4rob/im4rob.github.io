@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <head>
+		<title>RSS 2025 WorkShop</title>
+		<link rel="icon" href="img/logo.png" type="32x32">
+		<link rel="shortcut icon" href="img/logo.png" type="16x16">
+	
+	    <!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+	
+	
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">		 
+    </head>
+
+
+
+    <body class="body_index">
+		<nav class="navbar navbar-expand-lg navbar-custom  bg-light fixed-top">
+			<img class="Logo" src="img/logo.png" type="32x32"/>
+
+			<img src="img/RSS2025-logo-black.png", style=" height: 40px; margin-left: 20px;"/>
+		
+			<button class="navbar-toggler" type="button" data-toggle="collapse" 
+				data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a class="nav-link" href="">Home</a></li>
+					<li class="nav-item active"><a class="nav-link" href="./program/">Program</a></li>
+					<li class="nav-item active"><a class="nav-link" href="./call/">Call for Papers</a></li>
+					<li class="nav-item active"><a class="nav-link" href="./attend/">Attend</a></li>	
+				</ul>
+			</div>
+		</nav>
+
+		<section id="title" style="position: relative; overflow: hidden;">
+			<!-- Background image -->
+			<img src="img/background.png" 
+				 alt="Background"
+				 style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: 
+				 cover; opacity: 0.9; z-index: -1;">
+		
+			<!-- Spacer if needed -->
+			<br/><br/><br/><br/>
+		
+			<!-- Foreground content -->
+			<div class="container custom-container-width position-relative" style="z-index: 1;">
+				<div class="row text-center my-5">
+					<div class="col-md-12">
+						<h1 class="display-5 font-weight-bold mb-3 text-white">
+							Leveraging Implicit Methods for Aerial Autonomy
+						</h1>
+						<br/>
+						<p class="lead text-white">21 June 2025, Los Angeles, USA |  RSS 2025 WorkShop</p>
+					</div>
+				</div>
+			</div>
+		
+			<!-- Spacer if needed -->
+			<br/><br/>
+		</section>
+		
+		
+		
+
+		<section id="Main-Part">
+
+			<div class="container custom-container-width">
+
+				<div class = "row">	
+					<br/><br/>	
+					<div class="col-md-12">
+						<h3 class="subtitle">Overview</h3>	
+						<hr class="m-y-2">	
+					</div>
+				</div>
+
+
+                <div class="col-md-12">
+                <p class = "extra-roles">
+                    Modern aerial robots are expected to operate in increasingly complex environments while interacting with humans. 
+					Traditional mathematical tools often fail to handle complex sensor input, extreme agility control, 
+					and indirect goal specifications. 
+					They rely on explicit representations and goal specifications. 
+					Moreover, explicit representations are often computationally expensive to obtain and reason over.
+					<br/>
+                    <br/>
+					Therefore, implicit methods, 
+					which leverage data and the underlying structures of perception, control, and planning, 
+					are gaining increasing attention. 
+					By embedding knowledge, constraints, and task specifications directly within learning frameworks, 
+					implicit methods connect classical robotic paradigms with machine learning across multiple levels of abstraction. 
+					Our workshop will explore how implicit approaches, such as implicit representations (e.g., NeRF, Gaussian Splatting), implicit learning, and knowledge embedding, can be leveraged for aerial robots. 
+                    <br/>
+					<br/>
+					We aim to encourage a dynamic exchange of ideas between the audience and experts in control, planning, and perception, inspiring discussions on the role of implicit methods in the next generation of intelligent autonomy. 
+
+                </p>   
+                 
+                </div>
+
+
+
+
+				<div id="bodyContent1"></div>
+				<script>
+					// Load body-content.html into the div
+
+					fetch("program/content.html")
+					.then(response => response.text())
+					.then(data => {
+						document.getElementById("bodyContent1").innerHTML = data;
+					})
+					.catch(error => console.log("Error loading the content: ", error));
+				</script>
+
+
+				<div id="bodyContent2"></div>
+				<script>
+					// Load body-content.html into the div
+
+					fetch("call/content.html")
+					.then(response => response.text())
+					.then(data => {
+						document.getElementById("bodyContent2").innerHTML = data;
+					})
+					.catch(error => console.log("Error loading the content: ", error));
+				</script>
+
+
+
+				<div id="bodyContent3"></div>
+				<script>
+					// Load body-content.html into the div
+
+					fetch("attend/content.html")
+					.then(response => response.text())
+					.then(data => {
+						document.getElementById("bodyContent3").innerHTML = data;
+					})
+					.catch(error => console.log("Error loading the content: ", error));
+				</script>
+
+			</div>
+
+		</section>
+	
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+
+</html>

@@ -1,0 +1,96 @@
+	
+	body {
+		font-family:'Open Sans', sans-serif;
+		font-weight: 100;
+		font-size: 100%;
+		position: relative;
+	}
+
+	.body_index {
+		font-size: 100%;
+		font-weight: 100;
+	}
+	.body_style {
+		font-size: 100%;
+		font-weight: 100;
+	}
+	.subtitle{
+		color: #214780;
+		font-family: 'Open Sans', sans-serif;
+		text-align:left;
+		font-weight: 100;
+		margin-bottom: 2%;
+		margin-top: 2%;
+		font-size:160%;
+		font-weight: bold;
+	}
+
+	strong {
+		font-weight: bold;
+	}
+
+	
+	.content-block{		    
+		margin-bottom: 5%;		
+	
+	}
+	.Logo{
+		height:40px;
+		float:right;
+		margin:0;
+	
+	}
+	#Main-Part{
+		margin:0;
+	}
+	#title{
+		margin:0;
+		background-color:#ffffff43;
+	}
+	.extra-roles{
+		font-size:100%
+	
+	}
+	.sub-skills{
+		margin: 0;
+	
+	}
+
+	.container.custom-container-width {
+		max-width: 900px; 
+	}
+
+	.time-place{
+		text-align: right;
+	}
+	.circular--squareP{
+		width:80%;
+		height:80%;
+		border-radius:0%;
+	}
+
+	.circular--img {
+		width: auto;  /* Maintain original width */
+		height: auto; /* Maintain original height */
+		max-width: 100%; /* Prevent overflow */
+		display: block; /* Removes extra spacing */
+	}
+
+	
+	.navbar-custom {
+		background-color: #ffffff;
+		border: none;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	}
+
+	.navbar-custom a,
+	.navbar-custom .nav-link,
+	.navbar-custom .navbar-brand {
+		color: #000000 !important; 
+	}
+	.progress{
+		width: 30%;
+		float:right;
+	}
+	.skills{margin:10%;}
+	.copyright {text-align: center;}
