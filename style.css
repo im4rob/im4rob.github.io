@@ -18,8 +18,8 @@ body {
 		font-family: Arial, Helvetica, sans-serif;
 		text-align:left;
 		font-weight: 300;
-		margin-bottom: 2%;
-		margin-top: 2%;
+		margin-bottom: 1%;
+		margin-top: 1%;
 		font-size:160%;
 		font-weight: bold;
 	}
@@ -56,7 +56,7 @@ body {
 	}
 
 	.container.custom-container-width {
-		max-width: 900px; 
+		max-width: 850px; 
 	}
 
 	.time-place{
@@ -102,14 +102,14 @@ body {
 		flex-wrap: wrap; 
 		justify-content: space-around; 
 		align-items: flex-start; 
-		gap: 40px; 
+		gap: 60px; 
 		text-align: center; 
 		overflow-x: auto;
 	}
 
 	.speaker-profile {
-		max-width: 200px;
-		min-width: 200px;
+		max-width: 170px;
+		min-width: 170px;
 		margin: 0% auto; 
 		overflow: hidden;  
 		
@@ -125,8 +125,8 @@ body {
 
 	}
 	.speaker-profile-picture {
-		width: 160px; 
-		height: 160px; 
+		width: 150px; 
+		height: 150px; 
 		/* width: 100%; 
 		height: 100%;  */
 		object-fit: cover;
@@ -140,3 +140,27 @@ body {
 		border-radius: 50%; 
 		margin: 0 auto;
 	}
+
+	.organizer-profile-picture {
+		width: 130px; 
+		height: 130px; 
+		/* width: 100%; 
+		height: 100%;  */
+		object-fit: cover;
+		border-radius: 8px;
+	}
+
+
+	
+	.organizer-profile-container {
+		display: flex;
+		flex-wrap: nowrap; 
+		justify-content: space-around; 
+		align-items: flex-start; 
+		gap: 20px; 
+		text-align: center; 
+		overflow-x: auto;
+	}
+	/* justify-content: 
+            center; align-items: flex-start;  
+            text-align: center; flex-wrap: nowrap; overflow-x: auto; */
