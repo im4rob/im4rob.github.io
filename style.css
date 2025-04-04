@@ -93,3 +93,41 @@ body {
 	}
 	.skills{margin:10%;}
 	.copyright {text-align: center;}
+
+
+
+	
+	.speaker-profile-container {
+		display: flex;
+		flex-wrap: wrap; 
+		justify-content: space-around; 
+		align-items: flex-start; 
+		gap: 40px; 
+		text-align: center; 
+		overflow-x: auto;
+	}
+
+	.speaker-profile {
+		max-width: 200px;
+		margin: 0% auto; 
+		overflow: hidden;  
+		
+	}
+	.speaker-profile-caption {
+		margin-top: 0.25em;
+		font-size: 1em;
+	}
+
+	.speaker-institution {
+		font-size: 0.85em;
+		line-height: 1em;
+
+	}
+	.speaker-profile-picture {
+		width: 200px; 
+		height: 200px; 
+		/* width: 100%; 
+		height: 100%;  */
+		object-fit: cover;
+		border-radius: 8px;
+	}
