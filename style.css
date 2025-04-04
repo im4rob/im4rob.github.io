@@ -109,6 +109,7 @@ body {
 
 	.speaker-profile {
 		max-width: 200px;
+		min-width: 200px;
 		margin: 0% auto; 
 		overflow: hidden;  
 		
@@ -124,10 +125,18 @@ body {
 
 	}
 	.speaker-profile-picture {
-		width: 200px; 
-		height: 200px; 
+		width: 160px; 
+		height: 160px; 
 		/* width: 100%; 
 		height: 100%;  */
 		object-fit: cover;
 		border-radius: 8px;
+	}
+
+	.organizer-profile-caption {
+		width: 130px; 
+		height: 130px; 
+		overflow: hidden; 
+		border-radius: 50%; 
+		margin: 0 auto;
 	}
