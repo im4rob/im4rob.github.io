@@ -151,3 +151,13 @@ body {
 		object-fit: cover;
 		border-radius: 50%;
 	}
+
+
+	
+	/* Hide the text when screen is too narrow (or zoomed in) */
+	@media (max-width: 400px) {
+		.RSS_Logo{
+		display: none;
+		}
+
+	}
