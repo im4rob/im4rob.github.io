@@ -97,7 +97,7 @@ body {
 
 
 	
-	.speaker-profile-container {
+	.general-profile-container {
 		display: flex;
 		flex-wrap: wrap; 
 		justify-content: space-around; 
@@ -107,24 +107,34 @@ body {
 		overflow-x: auto;
 	}
 
-	.speaker-profile {
+	.organizer-profile-container {
+		display: flex;
+		flex-wrap: wrap; 
+		justify-content: space-around; 
+		align-items: flex-start; 
+		gap: 40px; 
+		text-align: center; 
+		overflow-x: auto;
+	}
+
+	.general-profile {
 		max-width: 170px;
 		min-width: 170px;
 		margin: 0% auto; 
 		overflow: hidden;  
 		
 	}
-	.speaker-profile-caption {
+	.general-profile-caption {
 		margin-top: 0.25em;
 		font-size: 1em;
 	}
-
-	.speaker-institution {
+	.profile-institution {
 		font-size: 0.85em;
 		line-height: 1em;
 
 	}
-	.speaker-profile-picture {
+
+	.profile-picture {
 		width: 150px; 
 		height: 150px; 
 		/* width: 100%; 
@@ -133,34 +143,11 @@ body {
 		border-radius: 8px;
 	}
 
-	.organizer-profile-caption {
-		width: 130px; 
-		height: 130px; 
-		overflow: hidden; 
-		border-radius: 50%; 
-		margin: 0 auto;
-	}
-
 	.organizer-profile-picture {
-		width: 130px; 
-		height: 130px; 
+		width: 150px; 
+		height: 150px; 
 		/* width: 100%; 
 		height: 100%;  */
 		object-fit: cover;
-		border-radius: 8px;
+		border-radius: 50%;
 	}
-
-
-	
-	.organizer-profile-container {
-		display: flex;
-		flex-wrap: wrap; 
-		justify-content: space-around; 
-		align-items: flex-start; 
-		gap: 20px; 
-		text-align: center; 
-		overflow-x: auto;
-	}
-	/* justify-content: 
-            center; align-items: flex-start;  
-            text-align: center; flex-wrap: nowrap; overflow-x: auto; */
