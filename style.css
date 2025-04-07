@@ -1,28 +1,30 @@
 	html, body {
-		font-family: 'Noto Sans', sans-serif;
+		font-family: 'Lato', sans-serif;
 	}
 	
 	
     body {
-		font-size: 110%;
+		font-size: 100%;
 		position: relative;
-		font-weight: 500; /* medium boldness */
+		font-weight: 400;
 	}
 
-	.body_index {
-		font-weight: 300;
+	.workshop-title {
+		font-size: 300%;       /* display-5 */
+		font-weight: bold;       /* font-weight-bold */
+		margin-bottom: 1rem;     /* mb-3 */
+		color: white;            /* text-white */
 	}
-	.body_style {
-		font-weight: 300;
-	}
+
 	.subtitle{
 		color: #214780;
 		text-align:left;
-		font-weight: 300;
+		font-weight: 400;
 		margin-bottom: 1%;
 		margin-top: 1%;
-		font-size:160%;
+		font-size:180%;
 		font-weight: bold;
+		line-height: 1.25;
 	}
 
 	strong {
@@ -153,7 +155,7 @@
 		background-color: #fff;
 		border: none;
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-		font-weight: 360;
+		font-weight: 400;
 		font-size: 18px;
 	}
 	
