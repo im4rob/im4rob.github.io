@@ -111,10 +111,11 @@
 	}
 	.general-profile-caption {
 		margin-top: 0.25em;
-		font-size: 1.15em;
+		font-size: 1em;
 	}
 	.profile-institution {
-		font-size: 1em;
+		font-size: 0.85em;
+		line-height: 1em;
 
 	}
 
