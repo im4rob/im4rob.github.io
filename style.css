@@ -90,7 +90,7 @@
 		flex-wrap: wrap; 
 		justify-content: space-around; 
 		align-items: flex-start; 
-		gap: 60px; 
+		gap: 80px; 
 		text-align: center; 
 		overflow-x: auto;
 	}
