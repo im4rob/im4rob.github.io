@@ -7,17 +7,18 @@
 		font-size: 100%;
 		position: relative;
 		font-weight: 400;
+		color: #353030;
 	}
 
 	.workshop-title {
 		font-size: 300%;       /* display-5 */
 		font-weight: bold;       /* font-weight-bold */
 		margin-bottom: 1rem;     /* mb-3 */
-		color: white;            /* text-white */
+		color: #353030;            /* text-white */
 	}
 
 	.subtitle{
-		color: #214780;
+		color: #990000;
 		text-align:left;
 		font-weight: 400;
 		margin-bottom: 1%;
