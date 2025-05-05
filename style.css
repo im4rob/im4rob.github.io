@@ -60,7 +60,7 @@
 	}
 
 	.container.custom-container-width {
-		max-width: 900px; 
+		max-width: 950px; 
 	}
 
 	.time-place{
@@ -123,8 +123,8 @@
 	}
 
 	.profile-picture {
-		width: 150px; 
-		height: 150px; 
+		width: 140px; 
+		height: 140px; 
 		/* width: 100%; 
 		height: 100%;  */
 		object-fit: cover;
@@ -132,8 +132,8 @@
 	}
 
 	.organizer-profile-picture {
-		width: 150px; 
-		height: 150px; 
+		width: 140px; 
+		height: 140px; 
 		/* width: 100%; 
 		height: 100%;  */
 		object-fit: cover;
