@@ -88,16 +88,20 @@
 		</section>
 
 		<div id="bodyContent"></div>
+
 		<script>
-			// Load body-content.html into the div
-			fetch("content.html")
-			.then(response => response.text())
-			.then(data => {
-				document.getElementById("bodyContent").innerHTML = data;
-			})
-			.catch(error => console.log("Error loading the content: ", error));
+		Promise.all([
+			fetch("content.html").then(response => response.text()),
+			fetch("papers.html").then(response => response.text())
+		])
+		.then(([contentHTML, papersHTML]) => {
+			document.getElementById("bodyContent").innerHTML = contentHTML + papersHTML;
+		})
+		.catch(error => console.log("Error loading the content: ", error));
 		</script>
-			<br><br>
+
+
+		<br><br>
 
 
 
