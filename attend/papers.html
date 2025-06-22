@@ -183,29 +183,6 @@
                     </div>
 
 
-
-                    <div style="margin-top: 1em;">
-                        <h5>
-                            <strong>Implicit Constraint-Aware Off-Policy Correction for Offline Reinforcement Learning</strong>
-                            
-                        </h5>
-                        Ali Baheri
-                        <br>
-                        <strong>Abstract:</strong>
-                            Offline reinforcement learning promises policy improvement from logged interaction data alone, 
-                            yet state-of-the-art algorithms remain vulnerable to value over-estimation and to violations of domain knowledge such as 
-                            monotonicity or smoothness. We introduce implicit constraint-aware off-policy correction, 
-                            a framework that embeds structural priors directly inside every Bellman update. 
-                            The key idea is to compose the optimal Bellman operator with a proximal projection on a convex constraint set, 
-                            which produces a new operator that (i) remains a 
-                            &gamma;-contraction, (ii) possesses a unique fixed point, and (iii) enforces the prescribed structure exactly. 
-                            A differentiable optimization layer solves the projection; implicit differentiation supplies gradients for deep function 
-                            approximators at a cost comparable to implicit Q-learning. On a synthetic Bid-Click auction—where the true value is 
-                            provably monotone in the bid—our method eliminates all monotonicity violations and outperforms conservative 
-                            Q-learning and implicit Q-learning in return, regret, and sample efficiency.                
-                        <br>
-                    </div>
-
                 </div>
             </div>
             
